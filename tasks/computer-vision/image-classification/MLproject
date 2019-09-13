@@ -1,0 +1,12 @@
+name: Image Classification
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+      Image_Depth: {type: int, default: 3}
+      Image_Height: {type: float, default: 48}
+      Image_Depth: {type: int, default: 48}
+      num_layers: {type: int, default: 3}
+    command: "python ImageClassifier.py {Image_Depth} {Image_Height} {Image_Depth} {num_layers}"

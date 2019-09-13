@@ -1,0 +1,9 @@
+channels:
+- defaults
+dependencies:
+- python=2.7.15
+- keras==2.2.5
+- tensorflow==1.14.0
+- pip:
+  - mlflow>=1.1
+name: mlflow-env
