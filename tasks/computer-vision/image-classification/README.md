@@ -11,5 +11,3 @@ mlflow run . --no-conda
 
 #view the project locally
 mlflow ui
-
-```bash
